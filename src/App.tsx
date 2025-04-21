@@ -10,8 +10,8 @@ import ChatHeader from './components/ChatHeader';
 
 const TEMPERATURE = 0.7;
 const TOP_P = 1;
-const PAGE_TITLE = "WebLLM Playground ✨";
-const PAGE_HEADING = "WebLLM Playground ✨";
+const PAGE_TITLE = "Konfront WebLLM Playground ✨";
+const PAGE_HEADING = "Konfront WebLLM Playground ✨";
 const PAGE_DESCRIPTION = "Blazing fast inference with WebGPU and WebLLM running locally in your browser.";
 
 // @ts-expect-error - navigator.gpu is not yet in TypeScript's lib
