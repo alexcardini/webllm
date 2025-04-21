@@ -1,6 +1,5 @@
 import React from 'react';
 import '@fontsource/inter';
-import { Github, Star } from 'lucide-react';
 
 interface HeaderProps {
   heading: string;
