@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = ({ heading, description }) => {
       <p className="text-base md:text-lg text-gray-300 text-center max-w-2xl mx-auto mb-4">
         {description}
       </p>
-      <div className="flex justify-center mt-6">
+      {/*<div className="flex justify-center mt-6">
         <a
           href="https://github.com/cfahlgren1/webllm-playground"
           target="_blank"
@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({ heading, description }) => {
           <span>Star on GitHub</span>
           <Star size={18} className="ml-2" />
         </a>
-      </div>
+      </div>*/}
     </header>
   );
 };
